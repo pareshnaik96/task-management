@@ -1,0 +1,34 @@
+{
+  "name": "task-management",
+  "version": "1.0.0",
+  "description": "Task Management",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "seed:admin": "node seeds/admin.seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pareshnaik96/task-management.git"
+  },
+  "author": "Paresh Naik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pareshnaik96/task-management/issues"
+  },
+  "homepage": "https://github.com/pareshnaik96/task-management#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "moment": "^2.30.1",
+    "mongoose": "^8.23.0",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.14"
+  }
+}
